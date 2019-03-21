@@ -1,0 +1,185 @@
+body {
+    padding: 0px;
+    margin: 0px;
+    background: linear-gradient(158deg, #b7eaea, #3561b3);
+}
+
+a {
+    text-decoration: none !important;
+    color: dodgerblue;
+}
+
+
+hr {
+    border: none;
+    background-color: #bfbfbf;
+    height: 1px;
+}
+
+a {
+
+}
+
+main {
+    background: white;
+    display: block;
+    margin: auto;
+    padding: 15px;
+    max-width: 1200px;
+    box-shadow: 0 4px 1px 0 rgba(0, 0, 0, 0.2), 0 6px 10px 0 rgba(0, 0, 0, 0.19);
+}
+
+
+.repository-container {
+    margin: 15px 39px;
+    padding: 0px;
+    padding-bottom: 25px;
+
+    z-index: 0;
+    position: relative;
+
+    width: 320px;
+
+    background-color: #ffffff;
+
+    border-radius: 6pt;
+
+    box-shadow: 0 4px 1px 0 rgba(0, 0, 0, 0.2), 0 6px 10px 0 rgba(0, 0, 0, 0.19);
+
+}
+
+.repository-container:hover {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+
+.repository-container header {
+    padding: 3pt;
+    margin: 0;
+
+    overflow: auto;
+
+    font-size: 17px;
+
+    text-align: center;
+    text-indent: 0em;
+
+    font-style: italic;
+
+    border-bottom: 1px solid #ccc;
+    border-bottom-left-radius: 10pt;
+    border-bottom-right-radius: 10pt;
+
+    display: -webkit-box;
+    -webkit-line-clamp: 4;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+
+    color: black;
+}
+
+
+.repository-container .bottom-position {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+
+}
+
+.repository-container img {
+
+
+    border-radius: 6pt;
+    border-bottom-left-radius: 15pt;
+    border-bottom-right-radius: 15pt;
+
+    width: 100%;
+
+    max-height: 220px;
+    min-height: 200px;
+    height: 16vw;
+
+    object-fit: cover;
+}
+
+.repository-container p {
+    font-size: 16px;
+    margin: 13pt;
+
+}
+
+.repository-container p.text {
+    margin-bottom: 2px;
+    text-indent: 15px;
+    display: -webkit-box;
+    -webkit-line-clamp: 4;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    color: black;
+}
+
+.repository-container p.text-before {
+    text-align: center;
+    font-size: 14px;
+    margin-top: 10pt;
+    color: #a0a0a0;
+}
+
+.profile-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: stretch;
+    flex-wrap: wrap;
+    margin-bottom: 40px;
+}
+
+.profile-container > div {
+    min-width: 350px;
+    display: block;
+}
+
+
+.profile-container-img-title {
+    text-align: center;
+}
+
+.profile-container-img {
+    width: 300px;
+    display: block;
+    margin: auto;
+}
+
+.top-link {
+    display: block;
+    text-align: right;
+}
+
+.profile-info {
+    padding-top: 50px;
+
+}
+
+.profile-info p {
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+
+.profile-info ul {
+    margin-top: 0px;
+}
+
+
+.repositories-container {
+    display: flex;
+    justify-content: start;
+    flex-wrap: wrap;
+}
+
+.repositories-container-title {
+    margin-left: 50px;
+
+}

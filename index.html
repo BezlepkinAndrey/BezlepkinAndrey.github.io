@@ -1,15 +1,111 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title>Title</title>
+        <title>BezlepkinAndrey</title>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="stylesheet" href="css/uikit.min.css" />
-        <script src="js/uikit.min.js"></script>
-        <script src="js/uikit-icons.min.js"></script>
+        <link rel="stylesheet" href="resources/css/css.css">
     </head>
     <body>
-      
-      <h1>Привет мир!</h1>
+
+    <main>
+
+        <a href="https://github.com/BezlepkinAndrey" class="top-link">Git профиль</a>
+        <hr>
+        <div class="profile-container">
+            <div>
+                <h1 class="profile-container-img-title">Bezlepkin Andrey</h1>
+                <img src="resources/img/photo.jpg" class="profile-container-img">
+            </div>
+            <div class="profile-info">
+                <p>Образование - "Севастопольский государственный университет" (Студент)</p>
+                <ul>
+                    <li>"Институт информационных технологий и управления в технических системах"</li>
+                    <li>Кафедра: "Информационные системы"</li>
+                </ul>
+
+                <p>Основные языки разработки:</p>
+                <ul>
+                    <li>PHP</li>
+                    <li>JS</li>
+                    <li>1C</li>
+                </ul>
+
+                <p>Контактная информация:</p>
+                <ul>
+                    <li>Почта - <a href="mailto:bezlea@rarus.ru?subject=GIT">bezlea@rarus.ru</a></li>
+                    <li>Skype - <a href="skype:andbezlepkin?chat">andbezlepkin@outlook.com</a></li>
+                </ul>
+            </div>
+
+        </div>
+
+        <hr>
+
+        <h2 class="repositories-container-title">Мои проекты</h2>
+        <div class="repositories-container">
+            <article class="repository-container">
+                <a href="https://github.com/BezlepkinAndrey/echo.rarus-crimea.ru" class="repository-container-link">
+                    <img src="resources/img/rarus-logo.png" class="repository-container-img">
+                    <header>
+                        <h2>Курсы PHP разработчика 2019</h2>
+                    </header>
+                </a>
+                <p class="text">Проект представляет реализацию заданий выданных на курсы PHP разработки компании
+                    1С-Рарус. В
+                    состав проекта входят задачи по PHP разработке, HTML верстке, администрированию BASH и многое
+                    другое.</p>
+
+                <p class="text"><a href="http://echo.rarus-crimea.ru/NPS/public/vote/statistics">Ссылка на сайт</a></p>
+
+                <p class="text-before bottom-position">echo.rarus-crimea.ru</p>
+
+            </article>
+            <article class="repository-container">
+                <a href="https://github.com/BezlepkinAndrey/BezlepkinAndrey.github.io"
+                   class="repository-container-link">
+                    <img src="resources/img/gitio.jpg" class="repository-container-img">
+                    <header>
+                        <h2>Призентационная страница GIT</h2>
+                    </header>
+                </a>
+                <p class="text">В данном репозиторие размещены исходные файлы страницы на которой вы находитесь</p>
+                <p class="text-before bottom-position">BezlepkinAndrey.github.io</p>
+
+            </article>
+
+        </div>
+        <div>
+            <h3>Поделиться ссылкой</h3>
+            <script src="https://yastatic.net/es5-shims/0.0.2/es5-shims.min.js"></script>
+            <script src="https://yastatic.net/share2/share.js"></script>
+            <div class="ya-share2"
+                 data-services="collections,vkontakte,facebook,odnoklassniki,moimir,twitter,viber,whatsapp,skype,telegram"></div>
+        </div>
+        <div>
+            <div id="disqus_thread"></div>
+            <script>
+
+                /**
+                 *  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
+                 *  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables*/
+                var disqus_config = function () {
+                    this.page.url = 'https://bezlepkinandrey.github.io';  // Replace PAGE_URL with your page's canonical URL variable
+                    //this.page.identifier = PAGE_IDENTIFIER; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+                };
+                (function () { // DON'T EDIT BELOW THIS LINE
+                    var d = document, s = d.createElement('script');
+                    s.src = 'https://https-bezlepkinandrey-github-io.disqus.com/embed.js';
+                    s.setAttribute('data-timestamp', +new Date());
+                    (d.head || d.body).appendChild(s);
+                })();
+            </script>
+            <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered
+                by Disqus.</a></noscript>
+        </div>
+
+
+    </main>
+
     </body>
 </html>
