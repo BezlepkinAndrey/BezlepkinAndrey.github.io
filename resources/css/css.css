@@ -1,7 +1,7 @@
 body {
     padding: 0px;
     margin: 0px;
-    background: linear-gradient(158deg, #b7eaea, #3561b3);
+    background:url(https://html5book.ru/wp-content/uploads/2015/06/background28.jpg);
     font-family: Arial;
 }
 
@@ -50,7 +50,9 @@ main {
 
     border-radius: 6pt;
 
-    box-shadow: 0 4px 1px 0 rgba(0, 0, 0, 0.2), 0 6px 10px 0 rgba(0, 0, 0, 0.19);
+    box-shadow: 0 2px 1px 0 rgba(0, 0, 0, 0.2), 0 6px 10px 0 rgba(0, 0, 0, 0.19);
+
+    transition: box-shadow 0.2s linear;
 
 }
 
@@ -157,6 +159,11 @@ main {
     width: 300px;
     display: block;
     margin: auto;
+}
+
+.top-link-container{
+    display: flex;
+    justify-content: flex-end;
 }
 
 .top-link {
