@@ -146,7 +146,6 @@ main {
 }
 
 .profile-container > div {
-    min-width: 350px;
     display: block;
 }
 
