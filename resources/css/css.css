@@ -84,6 +84,13 @@ main {
     overflow: hidden;
 
     color: black;
+
+    transition: color 0.2s linear;
+}
+
+
+.repository-container header:hover {
+    color: dodgerblue;
 }
 
 
